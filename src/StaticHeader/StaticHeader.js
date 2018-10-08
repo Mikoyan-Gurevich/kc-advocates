@@ -4,7 +4,7 @@ import './StaticHeader.css';
 class StaticHeader extends Component {
     render() {
         return (
-            <div>
+            <div className='asd'>
                 KC ADVOCATES & SOLICITORS
             </div>
         );
