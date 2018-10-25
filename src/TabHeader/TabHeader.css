@@ -1,0 +1,69 @@
+.TabHead{
+ position: absolute;
+ display: block;
+ width: 100%;
+ background: WHITE;
+ height: 100%;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+   
+}
+
+.logo{
+   
+    position : absolute;
+    width:5%;
+    height: 5%;
+    left :20px;
+    top:2%;
+
+}
+
+.MainPage{
+
+    position: relative;
+    width:100%;
+    height:100%;
+    top: 70px;
+    border-top: 2px solid;
+    border-color: blue;
+    background: #414a50;
+
+}
+
+
+nav,
+nav ul,
+nav ul li{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position : relative;
+    float :right;
+    top: -4%; right: 0px;
+}
+    ul li{
+        list-style-type: none;
+        display: inline-block;
+        margin-right :0px;
+        
+        
+    }
+        a {
+            margin: 20px;
+            font-size: 18px;
+            font-family: calibril;
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        a:hover{
+            color:blue;
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    

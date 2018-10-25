@@ -4,6 +4,7 @@ import StaticHeader from '../StaticHeader/StaticHeader';
 import TabHeader from '../TabHeader/TabHeader';
 // import ContactCard from '../ContactCard/ContactCard';
 
+
 class App extends Component {
   render() {
     return (
@@ -11,6 +12,7 @@ class App extends Component {
         <StaticHeader />
         <TabHeader />
         {/* <ContactCard /> */}
+        
       </div>
     );
   }
