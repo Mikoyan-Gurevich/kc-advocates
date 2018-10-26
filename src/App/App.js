@@ -12,7 +12,7 @@ class App extends Component {
         <StaticHeader />
         <TabHeader />
         {/* <ContactCard /> */}
-        
+
       </div>
     );
   }
