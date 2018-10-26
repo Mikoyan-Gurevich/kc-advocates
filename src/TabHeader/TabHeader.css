@@ -5,65 +5,43 @@
  background: WHITE;
  height: 100%;
 }
-img{
-    max-width: 100%;
-    height: 100%;
-   
-}
-
-.logo{
-   
-    position : absolute;
-    width:5%;
-    height: 5%;
-    left :20px;
-    top:2%;
-
-}
 
 .MainPage{
-
     position: relative;
     width:100%;
     height:100%;
-    top: 70px;
-    border-top: 2px solid;
-    border-color: blue;
-    background: #414a50;
+    background-repeat: no-repeat;
+    background-image: url(../123.jpg);  
 
 }
 
-
-nav,
-nav ul,
-nav ul li{
-    margin: 0;
-    padding: 0;
+.headera {
+    display: flex;
+    justify-content: space-between;
 }
 
-nav {
-    position : relative;
-    float :right;
-    top: -4%; right: 0px;
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    /* width: 40%; */
+    margin-top: 10px;
 }
-    ul li{
-        list-style-type: none;
-        display: inline-block;
-        margin-right :0px;
-        
-        
-    }
-        a {
-            margin: 20px;
-            font-size: 18px;
-            font-family: calibril;
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
-        a:hover{
-            color:blue;
-            text-decoration: none;
-            font-family: 'Courier New', Courier, monospace;
-        }
-    
+
+.logo {
+    height: 35px;
+    width: 50px;
+}
+
+.selectedTab {
+    color: white;
+    border: solid;
+    height: 0;
+    border-color: transparent transparent #404a51 transparent;
+    border-width: 0 0 30px 20px;
+}
+
+.normalTab {
+    cursor: pointer;
+    padding: 0 25px;
+}
+
