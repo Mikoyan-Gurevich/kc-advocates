@@ -1,0 +1,76 @@
+.contactUs {
+        background-color: #4f5577;
+        display: flex;
+            flex-direction: column;
+                height: 100%;
+}
+
+.contactUs .contact {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.contactUs .leftSide {
+        display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 0 60px;
+    margin: 5% 0 0 10%;
+}
+
+.contactUs .bottomSide {
+    display: flex;
+    color: white;   
+}
+
+.leftSide input, textarea {
+    margin: 20px 0;
+    border-radius: 5px;
+        padding: 10px;
+}
+
+.leftSide input {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.leftSide textarea {
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.leftSide button {
+        width: 105px;
+    border-radius: 5px;
+    background-color: #4f5578;
+    color: white;
+    font-weight: 600;
+        display: flex;
+    align-self: center;
+        justify-content: center;
+}
+
+.contactUs .leftSide .getInTouch {
+    color: white;
+    font-size: 25px;
+    display: flex;
+}
+
+.rightSide {
+    line-height: 60px;
+    font-size: 18px;
+}
+
+.name {
+        font-size: 25px;
+}
+
+.address {
+    line-height: 25px;
+}
+
+.nameAddress {
+        line-height: 55px;
+}

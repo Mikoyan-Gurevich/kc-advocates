@@ -3,6 +3,7 @@ import './TabHeader.css';
 import imag from '../Logo4.png';
 import AboutUs from '../AboutUs/AboutUs';
 import config from '../utils/config';
+import ContactUs from '../ContactUs/ContactUs';
 import strings from '../utils/strings';
 
 class TabHeader extends Component {
@@ -10,7 +11,7 @@ class TabHeader extends Component {
         super(props);
         this.tabConfig = config.tabConfig;
         this.state = {
-            selectedTab: config.tabConfig[0].name // Initially the first element should be shown as highlighted
+            selectedTab: config.tabConfig[3].name // Initially the first element should be shown as highlighted
         }
         this.selectTab = this.selectTab.bind(this);
     }
@@ -38,9 +39,8 @@ class TabHeader extends Component {
                         })}
                     </div>
                 </div>
-                <div>
-                    {selectedTab === 'aboutUs' && <AboutUs />}
-                </div>
+                {selectedTab === 'aboutUs' && <AboutUs />}
+                {selectedTab === 'contactUs' && <ContactUs />}
                 {/* <div className="MainPage">
                     <div className="MainTitle"></div>
                     <div className="WorkingAreas">ONLY CLIENT MATTER
