@@ -1,0 +1,120 @@
+.TabHead{
+ position: absolute;
+ display: block;
+ width: 100%;
+ background: WHITE;
+ height: 100%;
+}
+
+.MainPage{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    border-top: 2px solid;
+    border-color:#4f5576;
+   
+    background-image: url(../123.jpg);  
+    background-size: cover;
+    
+    
+
+}
+
+.headera {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    /* width: 40%; */
+    margin-top: 10px;
+}
+
+.logo {
+    height: 35px;
+    width: 50px;
+}
+
+.selectedTab {
+    color: white;
+    border: solid;
+    height: 0;
+    border-color: transparent transparent #4f5576 transparent;
+    border-width: 0px 0px 30px 20px;
+    border-radius: 0px 15px 0px 2px;
+}
+
+.normalTab {
+    cursor: pointer;
+    padding: 0 25px;
+}
+.WorkingAreas{
+    position: relative;
+    top:50% ;
+    width: 45%;
+    height : 150px;
+    background :rgba(0, 0, 0, 0.2);
+    border: solid;
+    border-color: #afafaf;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 0px 0px 0px 0px;
+    align: center;
+    font-size: 2rem;
+}
+.WorkingAreas:hover  {
+  background :rgba(0, 0, 0, 0.2);
+  border-color: #e9e9e9;
+}
+.WorkingAreas_two{
+    position: relative;
+    float: right;
+    width: 45%;
+    padding:0px;
+    top: -10%;
+    height : 150px;
+    background :rgba(0, 0, 0, 0.2);
+    border: solid;
+    
+    border-color: #afafaf;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 0px 0px 0px 0px;
+    align-items: center;
+    text-align: center;
+    
+}
+.WorkingAreas_two:hover  {
+  background :rgba(0, 0, 0, 0.2);
+  border-color: #e9e9e9;
+}
+.sector_Button{
+    position: relative;
+   
+    float: left;
+    top :50%;
+    left:27%;
+    font-size: .5em;
+    background-color:transparent;
+    color: rgb(223, 223, 223);
+     border: 1px solid #ffffff;
+}
+.prac_areas{
+    position: relative;
+    font-size: .5em;
+    float: left;
+    top :50%;
+    left:45%;
+    background-color:transparent;
+    color: rgb(223, 223, 223);
+    border: 1px solid #ffffff;
+}
+.sector_Button:hover{
+    color: white;
+    border: 1.3px solid #ffffff;  
+}
+.prac_areas:hover{
+    color: white;
+    border: 1.3px solid #ffffff;  
+}

@@ -5,7 +5,8 @@ class StaticHeader extends Component {
     render() {
         return (
             <div className='asd'>
-                KC ADVOCATES & SOLICITORS
+           
+                <div className='watermark'>KC ADVOCATES & SOLICITORS</div>
             </div>
         );
     }
