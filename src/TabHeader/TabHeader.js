@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import './TabHeader.css';
 import imag from '../Logo4.png';
-<<<<<<< HEAD
-=======
-import bgImg from '../123.jpg';
-
->>>>>>> asdasd
+import AboutUs from '../AboutUs/AboutUs';
 
 class TabHeader extends Component {
     constructor(props) {
@@ -48,7 +44,6 @@ class TabHeader extends Component {
         const { selectedTab } = this.state;
         return (
             <div className="TabHead">
-<<<<<<< HEAD
                 <div className='headera'>
                     <div>
                         <img className="logo" src={imag} alt="logo" />
@@ -63,27 +58,19 @@ class TabHeader extends Component {
                         })}
                     </div>
                 </div>
-                <div className="MainPage">
-
-=======
-                <div className="logo">
-                    <img src={imag} alt="logo">
-                    </img>
+                <div>
+                    {selectedTab === 'aboutUs' && <AboutUs />}
                 </div>
-                <div className="MainPage">
-
-                    <nav>
-                        <ul>
-                            <li><div><a href="#">Home</a></div></li>
-                            <li><div><a href="#">Practice Areas</a></div></li>
-                            <li> <div><a href="#">About Us</a></div></li>
-                            <li><div><a href="#">Contact Us</a></div></li>
-                            <li> <div><a href="#">FAQ</a></div></li>
-
-                        </ul>
-                    </nav>
->>>>>>> asdasd
-                </div>
+                {/* <div className="MainPage">
+                    <div className="MainTitle"></div>
+                    <div className="WorkingAreas">ONLY CLIENT MATTER
+                                <button class="sector_Button">Sectors</button>
+                        <button class="prac_areas">Practice Areas</button>
+                    </div>
+                    <div className="WorkingAreas_two"><h1>CRIMINAL DEFENCE LAW FIRM</h1>
+                        <p>To be the best in law defence</p>
+                            <p> To be the best in law defence</p></div>
+                </div> */}
             </div>
 
         );
