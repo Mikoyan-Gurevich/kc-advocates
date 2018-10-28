@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './StaticHeader.css';
+import strings from '../utils/strings';
 
 class StaticHeader extends Component {
     render() {
         return (
             <div className='asd'>
-           
-                <div className='watermark'>KC ADVOCATES & SOLICITORS</div>
+                <div className='watermark'>{strings.companyName}</div>
             </div>
         );
     }

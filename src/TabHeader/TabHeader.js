@@ -2,35 +2,15 @@ import React, { Component } from 'react';
 import './TabHeader.css';
 import imag from '../Logo4.png';
 import AboutUs from '../AboutUs/AboutUs';
+import config from '../utils/config';
+import strings from '../utils/strings';
 
 class TabHeader extends Component {
     constructor(props) {
         super(props);
-        this.tabConfig = [
-            {
-                name: 'home',
-                label: 'Home'
-            },
-            {
-                name: 'practiceAreas',
-                label: 'Practice Areas'
-            },
-            {
-                name: 'aboutUs',
-                label: 'About Us'
-            },
-            {
-                name: 'contactUs',
-                label: 'Contact Us'
-            },
-            {
-                name: 'faq',
-                label: 'FAQ'
-            }
-        ];
-
+        this.tabConfig = config.tabConfig;
         this.state = {
-            selectedTab: 'home'
+            selectedTab: config.tabConfig[0].name // Initially the first element should be shown as highlighted
         }
         this.selectTab = this.selectTab.bind(this);
     }
@@ -72,7 +52,6 @@ class TabHeader extends Component {
                             <p> To be the best in law defence</p></div>
                 </div> */}
             </div>
-
         );
     }
 }
