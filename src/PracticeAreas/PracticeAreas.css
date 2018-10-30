@@ -1,12 +1,12 @@
 
-.aboutUs {
+.Practice {
         background-color: #4f5577;
         display: flex;
             flex-direction: column;
                 height: 50%;
 }
 
- .about {
+ .PracticeAr {
     font-size: 50px;
     display: flex;
     justify-content: center;
@@ -19,4 +19,14 @@
     margin-bottom: 20px;
      border-radius: 5px;
     background-color: #0083c0;
+}
+.AreasMain{
+    display: flex;
+    justify-content:space-between;
+}
+.AreaTabs{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }

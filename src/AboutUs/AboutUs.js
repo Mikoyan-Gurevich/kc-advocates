@@ -23,6 +23,7 @@ class AboutUs extends Component {
 
                         <div>93823891811</div>
                         <div>KSA@gmail.com</div>
+                        <button>Know More</button>
                     </div>
                     <div className='Member1'>
                         <div className='name'>Kunal Chaudhary</div>
@@ -32,6 +33,7 @@ class AboutUs extends Component {
 
                         <div>93823891811</div>
                         <div>KSA@gmail.com</div>
+                        <button>Know More</button>
                     </div>
                 </div>
             </div >
