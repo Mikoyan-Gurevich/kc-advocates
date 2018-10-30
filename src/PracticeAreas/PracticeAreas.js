@@ -18,14 +18,17 @@ class PracticeAreas extends Component {
                 </div>
                 <div className='AreasMain'>
                     <div className="AreaTabs">
-                        <div>Property</div>
-                        <div>Projects</div>
-                        <div>Taxation</div>
-                        <div>Mergers</div>
+                        <div className="Property">Property</div>
+                        <div className="Projects">Projects</div>
+                        <div className="Taxation">Taxation</div>
+                        <div className="Mergers">Mergers</div>
                     </div>
                     <div className="RightTab">
-                        <div className="AreaList">Practice Areas</div>
-                        <div className="ContactTab">Contact</div>
+                        <div className="AreaList"><div className="pracAr">Practice Areas</div>
+                            <div>Abcdef</div>
+                            <div>324234</div></div>
+                        <div className="ContactTab"><div className="contacttabs">Contact</div>
+                            <div>ksa@gmail.com</div></div>
                     </div>
 
                 </div>
