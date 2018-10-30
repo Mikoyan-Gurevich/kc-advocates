@@ -8,9 +8,18 @@ class PracticeAreas extends Component {
     render() {
 
         return (
-            <div className='PracAreas'>Prac areas page
+            <div className='ContainerAbout'>
+                <div className='aboutUs'>
+                    <div className='about'>
+                        Practice Areas
+                    </div>
+                    <div className='quote'>A team of skilled criminal lawyers working in Panipat and Sonipat</div>
 
-            </div>
+                </div>
+                <div className='OurTeamContainer'>
+
+                </div>
+            </div >
         );
     }
 }
