@@ -90,6 +90,7 @@
     font-weight: 600;
     align-self: flex-start;
     width: 150px;
+    align-items: center;
 }
 .ContactTab{
     display: flex;
@@ -103,6 +104,7 @@
     font-weight: 600;
     align-self: flex-start;
     width: 150px;
+    align-items: center;
 }
 .pracAr{
     display:flex;
@@ -121,7 +123,7 @@
 .contacttabs{
     display:flex;
     justify-content: center;
-    
+    align-items: center;
     border-radius: 2px;
     padding: 10px;
     color: white;
