@@ -2,7 +2,7 @@
         background-color: #4f5577;
         display: flex;
             flex-direction: column;
-                height: 100%;
+                height: 100vh;
 }
 
 .contactUs .contact {
@@ -17,12 +17,15 @@
     flex-direction: column;
     width: 40%;
     padding: 0 60px;
-    margin: 5% 0 0 10%;
+    margin: 5% 0 0 -10%;
 }
 
 .contactUs .bottomSide {
     display: flex;
-    color: white;   
+    color: white;
+    justify-content: space-evenly; 
+    width:100%;
+      
 }
 
 .leftSide input, textarea {
@@ -59,8 +62,12 @@
 }
 
 .rightSide {
+    display:flex;
     line-height: 60px;
     font-size: 18px;
+    padding: 50px 60px;
+    margin: 5% 0 0 -10%;
+    flex-direction: column;
 }
 
 .name {

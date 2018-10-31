@@ -37,7 +37,7 @@
     padding: 10px;
     color: black;
     border-color: black;
-    background-color: #e4e4e4;
+    background-color: #f1f1f1;
     font-weight: 600;
     align-self: flex-start;
     width: 150px;
@@ -49,7 +49,7 @@
     padding: 10px;
     color: black;
     border-color: black;
-    background-color: #e4e4e4;
+    background-color: #f1f1f1;
     font-weight: 600;
     align-self: flex-start;
     width: 150px;
@@ -61,7 +61,7 @@
     padding: 10px;
     color: black;
     border-color: black;
-    background-color: #e4e4e4;
+    background-color: #f1f1f1;
     font-weight: 600;
     align-self: flex-start;
     width: 150px;
@@ -73,7 +73,7 @@
     padding: 10px;
     color: black;
     border-color: black;
-    background-color: #e4e4e4;
+    background-color: #f1f1f1;
     font-weight: 600;
     align-self: flex-start;
     width: 150px;
@@ -83,24 +83,22 @@
     flex-direction: column;
     margin: 20px 20px 20px 20px;
     border-radius: 2px;
-    padding: 10px;
     color: black;
     border-color: black;
-    background-color: #e4e4e4;
+    background-color: #f1f1f1;
     font-weight: 600;
-    align-self: flex-start;
     width: 150px;
-    align-items: center;
+    align-items: flex-start;
+    
 }
 .ContactTab{
     display: flex;
     flex-direction: column;
     margin: 20px 20px 20px 20px;
     border-radius: 2px;
-    padding: 10px;
     color: black;
     border-color: black;
-    background-color: #e4e4e4;
+    background-color: #f1f1f1;
     font-weight: 600;
     align-self: flex-start;
     width: 150px;
@@ -114,7 +112,7 @@
     padding: 10px;
     color: white;
     border-color: black;
-    background-color: #41099b;
+    background-color: #4f5576;
     font-weight: 600;
     
     width: 150px; 
@@ -128,7 +126,7 @@
     padding: 10px;
     color: white;
     border-color: black;
-    background-color: #41099b;
+    background-color:#4f5576;
     font-weight: 600;
     
     width: 150px; 
