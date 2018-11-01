@@ -44,7 +44,7 @@
     line-height: 50px;
 }
 
-.leftSide button {
+.contactUs .leftSide button {
         width: 105px;
     border-radius: 5px;
     background-color: #4f5578;
@@ -61,7 +61,7 @@
     display: flex;
 }
 
-.rightSide {
+.contactUs .rightSide {
     display:flex;
     line-height: 60px;
     font-size: 18px;

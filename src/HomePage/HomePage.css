@@ -1,8 +1,8 @@
 .MainPage{
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     height: 100vh;
-    justify-content: flex-start;
+    justify-content: space-between;
     background-repeat: no-repeat;
     border-top: 2px solid;
     border-color:#4f5576;
@@ -12,21 +12,79 @@
       
 
 }
-.rightSide{
+.MainPage .rightSide{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2%;
 }
-.leftSide{
+
+.MainPage .leftSide{
     display: flex;
     flex-direction: column;
-
-
-
-
-
+    justify-content: center;
+    
+}
+.boxLeftSide{
+    border: 1px solid;
+    padding: 0 2rem 2rem 2rem;
+    border-color: #f8f8f8;
+    
+      
+}
+.boxRightSide{
+    border: 1px solid;
+    padding: 0 2rem 2rem 2rem;
+    border-color: #f8f8f8;
+    
+      
+}
+h1{
+    
+    color:rgb(37, 37, 37);
 }
 
 .MoreInfo{
+    display: flex;
+    justify-content: space-around;
+}
+.MainPage .leftSide button{
+    
+    display: inline-block;
+    border: 1px solid;
+    padding: .5rem 1rem;
+    border-radius: 2px;
+    margin: 0;
+    text-decoration: none;
+    background: transparent;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.MainPage .leftSide button:hover,
+button:focus {
+    background: #f8f8f8;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    color: black;
+}
+
+.MainPage .leftSide button:focus {
+    outline: 1px solid #fff;
+        
 
 }
-  
+
+.MainPage .leftSide button:active {
+    transform: scale(0.99);
+    opacity: 100;
+    filter: alpha(opacity=100);
+}
+    
