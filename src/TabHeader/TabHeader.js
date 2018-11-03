@@ -2,16 +2,38 @@ import React, { Component } from 'react';
 import './TabHeader.css';
 import imag from '../Logo4.png';
 import AboutUs from '../AboutUs/AboutUs';
-import config from '../utils/config';
+import PracticeAreas from '../PracticeAreas/PracticeAreas';
+import HomePage from '../HomePage/HomePage';
 import ContactUs from '../ContactUs/ContactUs';
-import strings from '../utils/strings';
 
 class TabHeader extends Component {
     constructor(props) {
         super(props);
-        this.tabConfig = config.tabConfig;
+        this.tabConfig = [
+            {
+                name: 'home',
+                label: 'Home'
+            },
+            {
+                name: 'practiceAreas',
+                label: 'Practice Areas'
+            },
+            {
+                name: 'aboutUs',
+                label: 'About Us'
+            },
+            {
+                name: 'contactUs',
+                label: 'Contact Us'
+            },
+            {
+                name: 'faq',
+                label: 'FAQ'
+            }
+        ];
+
         this.state = {
-            selectedTab: config.tabConfig[3].name // Initially the first element should be shown as highlighted
+            selectedTab: 'home'
         }
         this.selectTab = this.selectTab.bind(this);
     }
@@ -39,8 +61,14 @@ class TabHeader extends Component {
                         })}
                     </div>
                 </div>
-                {selectedTab === 'aboutUs' && <AboutUs />}
-                {selectedTab === 'contactUs' && <ContactUs />}
+                <div>
+                    {selectedTab === 'aboutUs' && <AboutUs />}
+                    {selectedTab === 'contactUs' && <ContactUs />}
+                    {selectedTab === 'practiceAreas' && <PracticeAreas />}
+
+                    {selectedTab === 'home' && <HomePage />}
+
+                </div>
                 {/* <div className="MainPage">
                     <div className="MainTitle"></div>
                     <div className="WorkingAreas">ONLY CLIENT MATTER
@@ -52,6 +80,7 @@ class TabHeader extends Component {
                             <p> To be the best in law defence</p></div>
                 </div> */}
             </div>
+
         );
     }
 }

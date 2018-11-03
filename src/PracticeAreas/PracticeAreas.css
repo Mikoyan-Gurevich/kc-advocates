@@ -1,0 +1,133 @@
+
+.Practice {
+        background-color: #4f5577;
+        display: flex;
+            flex-direction: column;
+                height: 50%;
+}
+
+ .PracticeAr {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.quote{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+     border-radius: 5px;
+    background-color: #0083c0;
+}
+.AreasMain{
+    display: flex;
+    justify-content:space-between;
+}
+.AreaTabs{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.Property{
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    border-radius: 2px;
+    padding: 10px;
+    color: black;
+    border-color: black;
+    background-color: #f1f1f1;
+    font-weight: 600;
+    align-self: flex-start;
+    width: 150px;
+}
+.Projects{
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    border-radius: 2px;
+    padding: 10px;
+    color: black;
+    border-color: black;
+    background-color: #f1f1f1;
+    font-weight: 600;
+    align-self: flex-start;
+    width: 150px;
+}
+.Taxation{
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    border-radius: 2px;
+    padding: 10px;
+    color: black;
+    border-color: black;
+    background-color: #f1f1f1;
+    font-weight: 600;
+    align-self: flex-start;
+    width: 150px;
+}
+.Mergers{
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    border-radius: 2px;
+    padding: 10px;
+    color: black;
+    border-color: black;
+    background-color: #f1f1f1;
+    font-weight: 600;
+    align-self: flex-start;
+    width: 150px;
+}
+.AreaList{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+    border-radius: 2px;
+    color: black;
+    border-color: black;
+    background-color: #f1f1f1;
+    font-weight: 600;
+    width: 150px;
+    align-items: flex-start;
+    
+}
+.ContactTab{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+    border-radius: 2px;
+    color: black;
+    border-color: black;
+    background-color: #f1f1f1;
+    font-weight: 600;
+    align-self: flex-start;
+    width: 150px;
+    align-items: center;
+}
+.pracAr{
+    display:flex;
+    justify-content: center;
+    
+    border-radius: 2px;
+    padding: 10px;
+    color: white;
+    border-color: black;
+    background-color: #4f5576;
+    font-weight: 600;
+    
+    width: 150px; 
+}
+
+.contacttabs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    padding: 10px;
+    color: white;
+    border-color: black;
+    background-color:#4f5576;
+    font-weight: 600;
+    
+    width: 150px; 
+}
